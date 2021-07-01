@@ -44,7 +44,7 @@
       Daniel Lui
      </v-card-title>
     <v-card-subtitle>
-      VP Technology'
+      VP Technology
     </v-card-subtitle>
        
   </v-card>
@@ -130,7 +130,7 @@
       Ahasan Bhuiyan
      </v-card-title>
     <v-card-subtitle>
-      Programming Specialist
+      Electronics Specialist
     </v-card-subtitle>
     
   </v-card>
