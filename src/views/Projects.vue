@@ -28,7 +28,7 @@ All workshops and the Gravity Car Challenge are FREE to attend, so don’t miss 
             outlined
             tile
           >
-            <v-img  src="@/assets/Workshops/new2.png"></v-img>
+            <v-img  src="@/assets/Workshops/Website1.png"></v-img>
           </v-card>
         </v-col>
           <v-col :key=2>
@@ -56,7 +56,23 @@ Time: 2:00 PM PST
   </v-container>
   <v-container class="grey lighten-5">
     <v-row no-gutters>
-        <v-col :key=1>
+        
+          <v-col :key=2>
+
+          <v-card
+            class="pa-2"
+            outlined
+            tile
+          >
+          <v-img  src="@/assets/Workshops/Website2.png"></v-img>
+          </v-card>
+        </v-col> 
+        <v-responsive
+          v-if="n === 2"
+          :key="`width-${2}`"
+          width="100%"
+        ></v-responsive>
+      <v-col :key=1>
 
           <v-card
             class="pa-2"
@@ -72,22 +88,6 @@ Time: 2:00 PM PST
             </p>
           </v-card>
         </v-col>
-          <v-col :key=2>
-
-          <v-card
-            class="pa-2"
-            outlined
-            tile
-          >
-          <v-img  src="@/assets/Workshops/new.png"></v-img>
-          </v-card>
-        </v-col> 
-        <v-responsive
-          v-if="n === 2"
-          :key="`width-${2}`"
-          width="100%"
-        ></v-responsive>
-      
     </v-row>
   </v-container>
   <v-container class="grey lighten-5">
@@ -99,7 +99,7 @@ Time: 2:00 PM PST
             outlined
             tile
           >
-           <v-img  src="@/assets/Workshops/pic3.png" ></v-img>
+           <v-img  src="@/assets/Workshops/Website3.png" ></v-img>
           </v-card>
         </v-col>
           <v-col :key=2>
